@@ -1,6 +1,6 @@
-module SpreeBlueTheme
+module BoconnectTheme
   class Engine < Rails::Engine
-    railtie_name "spree_blue_theme"
+    railtie_name "boconnect_theme"
 
     config.autoload_paths += %W(#{config.root}/lib)
 
