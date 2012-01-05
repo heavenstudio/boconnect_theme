@@ -257,6 +257,9 @@ legend {
   border-right: 1px solid #eeeeee;
 }
 body {
+	background-color: #eee
+}
+.body_old {
   margin-top: 10px;
   background: #ffffff url(/assets/body-back.png) top left repeat-x;
 }
@@ -270,43 +273,56 @@ div.right {
 }
 a { outline: none; }
 #wrapper {
+  padding: 25px 20px 20px;
+  min-height: 420px;
+  position: relative;
+}
+#wrapper_old {
   background: transparent url(/assets/wrapper-back.png) top center no-repeat;
   padding: 25px 20px 20px;
   min-height: 420px;
   position: relative;
 }
-body.two-col #wrapper { background-image: url(/assets/wrapper-back-2.png); }
+body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
+
 .container {
-  width: 950px;
+  width: 960px;
   margin: 0 auto;
   overflow: hidden;
   display: block;
 }
 #sidebar {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #fbf7f4;
   display: inline;
   float: left;
   width: 150px;
   min-height: 100px;
   margin-right: 10px;
-  padding-right: 24px;
+  padding: 10px;
   margin-right: 25px;
-  border-right: 1px solid #eeeeee;
+
+
 }
 #sidebar h3 { margin-bottom: 0.5em; }
 body.one-col #content {
   display: inline;
   float: left;
-  width: 950px;
+  width: 960px;
 }
 body.two-col #content {
   display: inline;
   float: left;
-  width: 750px;
+  width: 600px;
 }
 #header {
   position: relative;
   color: #2e6ab1;
   clear: both;
+	height: 145px;
 }
 #header a { color: #2e6ab1; }
 #header a:hover { color: #eeeeee; }
@@ -421,8 +437,15 @@ ul#nav-bar li {
 }
 ul#nav-bar li.cart-indicator a {
   padding-right: 40px;
-  background: transparent url(/assets/cart-empty_x32.png) center right no-repeat;
+
+  background: transparent url(/assets/cart_empty.png) center right no-repeat;
   display: block;
+}
+
+ul#nav-bar li.cart-indicator a:hover {
+  background: transparent url(/assets/cart_empty_hover.png) center right no-repeat;
+  display: block;
+
 }
 ul#nav-bar li.cart-indicator a.full { background-image: url(/assets/cart-full_x32.png); }
 .pagination {
@@ -713,7 +736,7 @@ ul.thumbnails li.selected { border-color: #999999; }
 #taxon-crumbs {
   display: inline;
   float: left;
-  width: 950px;
+  width: 960px;
   margin-right: 10px;
   display: block;
   float: right;

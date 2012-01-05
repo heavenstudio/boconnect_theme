@@ -1,0 +1,74 @@
+#wrapper {
+	width: 920px;
+	margin: 0 auto;
+	background-color: #fff
+	
+}
+#header{
+	position:relative;
+	background-color: #fff
+}
+
+li#home-link {
+	display:none;
+}
+
+ul#nav-bar li a {
+	font-family:"Trashhand",Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #8a5740;
+	text-decoration: none;
+}
+ul#nav-bar li a:hover {
+	color: #ec008c;
+}
+.menu{
+	font-family:"Trashhand",Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	width: 100%;
+	height: 30px;
+	color: #fff;
+	font-weight: normal;
+	background-color: #ec008c;
+}
+
+.menu ul#first {
+	list-style: none;
+}
+
+.menu form {
+	width: 320px;
+	display:inline-block;
+	float:right;
+	
+}
+
+.menu ul li{
+	list-style: none;
+	display:inline-block;
+	margin: 2px 25px;
+}
+
+
+#logo_boconnect{
+	width: 960px;
+}
+
+#logo_boconnect img{
+	margin: 22px 50px;
+}
+
+
+.sidebar-item h3{
+	font-family:"Trashhand",Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #ec008c;
+}
+
+li#search-bar {
+	display:none;
+}
+
+#link-to-cart{
+	margin: 0 10px;
+}
