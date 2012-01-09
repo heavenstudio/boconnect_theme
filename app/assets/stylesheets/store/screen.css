@@ -316,7 +316,14 @@ body.one-col #content {
 body.two-col #content {
   display: inline;
   float: left;
-  width: 600px;
+  width: 714px;
+	background-color: #fbf7f4;
+	padding: 10px 0 0 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+
 }
 #header {
   position: relative;
@@ -364,13 +371,9 @@ p img {
   white-space: nowrap;
   overflow: hidden;
 }
-.taxons-list li a:hover { background: url(/assets/menu-hover.png) right center no-repeat; }
-.taxons-list li.current { width: 200px; }
+.taxons-list li a:hover { text-decoration:underline;}
 .taxons-list li.current a {
-  width: 180px;
-  background: url(/assets/menu-current.png) right center no-repeat;
-  white-space: nowrap;
-  overflow: hidden;
+	color: #ec008c;
 }
 .taxons-list li.current a.root { width: 183px; }
 .taxons-list a.root {
@@ -612,12 +615,13 @@ button::-moz-focus-inner {
 p a.button img { margin: 0 5px 0 0; }
 p button img { margin: 0 5px 0 0; }
 .prices { font-weight: bold; }
-.prices #product-details .prices { font-size: 1.25em; }
-.price.selling { color: #2e6ab1; }
-#product-details .price.selling { font-size: 1.5em; }
+.prices #product-details .prices { font-size: 16px; }
+.price.selling { color: #8a5740; }
+#product-details .price.selling { font-size: 16px; }
 dl#product-price dd{
   margin-left: 0;
 }
+
 dl#product-price dd span.price{
   font-weight: bold;
 }
@@ -628,20 +632,21 @@ dl#product-price dd span.price{
 }
 .product-listing {
   list-style: none;
-  margin: 2em 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 0px;
 }
 .product-listing li {
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #fff;
   height: 180px;
   width: 140px;
   text-align: center;
   float: left;
-  margin: 10px;
+  margin: 8px;
   padding: 10px;
-  border: 1px solid #dddddd;
   position: relative;
 }
 .product-listing li a {
@@ -656,14 +661,12 @@ dl#product-price dd span.price{
   padding: 5px;
   width: 150px;
   min-height: 60px;
-  background: #ffffff url(/assets/shadow_top.png) 0px -35px repeat-x;
-  border-top: 1px solid #ffffff;
+	font-size: 14px;
+
 }
 .product-listing li a.info span { display: block; }
-.product-listing li:hover { border-color: #1b1b1b; }
 .product-listing li:hover a.info {
-  background: #1b1b1b url(/assets/bottom_shine.png) bottom left repeat-x;
-  color: #ffffff;
+  color: #000;
 }
 ul.thumbnails {
   margin: 0;
