@@ -6,7 +6,9 @@
 }
 #header{
 	position:relative;
-	background-color: #fff
+	background-color: #fff;
+	background-image:url(/assets/fundo_header_bb.png); ;
+	
 }
 
 li#home-link {
@@ -34,6 +36,9 @@ ul#nav-bar li a:hover {
 	height: 30px;
 	color: #fff;
 	background-color: #ec008c;
+}
+.menu form{
+	margin-right:15px;
 }
 
 .menu ul#first {
@@ -85,7 +90,7 @@ li#search-bar {
 #promocao{
 	position: absolute;
 	top: 35px;
-	left:295px;
+	right:295px;
 }
 
 #pagination_bar {
@@ -104,4 +109,104 @@ li#search-bar {
 }
 p.category{
 	padding: 2px 12px;
+}
+
+span.details {
+	font-family:"Trashhand",Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ec008c;
+	text-align: right;
+	padding: 0 4px;
+}
+
+span.details:hover {
+	text-decoration: underline;
+}
+
+#footer {
+	background-color: #fff;
+	border-bottom: 5px solid #ec008c;
+}
+
+img.bobags {
+	float:right;
+}
+
+#footer_bar{
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;	
+	text-align: center;
+	font-size: 12px;
+	color: #000;
+	font-weight:normal;
+	
+}
+
+#footer_bar ul{
+	margin: 5px 0;
+}
+
+#footer_bar ul li {
+	display:inline-block;
+	list-style: none;
+}
+
+#footer_bar ul li:after {
+	content: "|";
+	padding: 0 1px 0 6px;
+	
+}
+
+#footer_bar ul li.last:after {
+	content: " ";
+}
+
+#allrights{
+	font-family:Arial, Helvetica, sans-serif;	
+	text-align: center;
+	font-size: 12px;
+	color: #000;
+	font-weight:normal;
+	padding-bottom: 10px;
+	
+}
+#facebook {
+	margin-left: 8px;
+}
+
+img#bobags{
+	position:absolute;
+	right: 15px;
+	top: 25px;
+	
+}
+
+#sidebar h1 {
+	font-family:"Trashhand",Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #8a5740;
+	margin: 10px 0 10px 12px;
+}
+
+#taxonomies {
+	margin-left: 20px;
+}
+
+#breadcrumbs {
+	display:none;
+}
+
+.navigation{
+	margin-left: 20px;
+}
+.navigation ul {
+	margin:0 5px 5px 15px;
+	
+}
+
+span.category{
+	font-family:"Trashhand",Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color:#ec008c;
+	
 }

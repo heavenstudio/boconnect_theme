@@ -5,6 +5,7 @@ Deface::Override.new(:virtual_path => 'spree/shared/_products',
                                    <%= link_to(product, :class => 'info') do %>
                                      <%= product.name %>
                                      <span class="price selling"><%= product_price(product) %></span>
+                                    <span class="details">detalhes</span>
                                    <% end %>
                                    <%= link_to small_image(product), product %>
                                  </li>})
