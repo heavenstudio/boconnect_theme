@@ -1,3 +1,22 @@
+@import 'basic';
+@import 'checkout';
+@import 'colors';
+@import 'flash_notices';
+@import 'forms';
+@import 'headers_and_footers';
+@import 'links';
+@import 'lists';
+@import 'navigation';
+@import 'paragraphs';
+@import 'products';
+@import 'reset';
+@import 'screen';
+@import 'tables';
+
+
+
+
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
   padding: 0;
@@ -272,11 +291,13 @@ div.right {
   width: 49%;
 }
 a { outline: none; }
+
 #wrapper {
   padding: 25px 20px 20px;
   min-height: 420px;
   position: relative;
 }
+
 #wrapper_old {
   background: transparent url(/assets/wrapper-back.png) top center no-repeat;
   padding: 25px 20px 20px;
@@ -291,6 +312,7 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
   overflow: hidden;
   display: block;
 }
+
 #sidebar {
 	position:relative;
 	-moz-border-radius: 10px;
@@ -344,11 +366,6 @@ body.two-col #content {
 #footer {
   padding-top: 2em;
   clear: both;
-}
-#footer div.left { width: 37%; }
-#footer div.right {
-  width: 63%;
-  text-align: right;
 }
 h1 { font-size: 2.5em; }
 .form-buttons, .clear { clear: both; }

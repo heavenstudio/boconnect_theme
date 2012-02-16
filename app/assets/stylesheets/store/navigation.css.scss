@@ -1,0 +1,93 @@
+@import 'colors';
+
+nav#top-nav-bar {
+  text-align: right;
+  margin-top: 20px;
+
+  ul {
+    li {
+      margin-bottom: 5px;
+      padding-left: 10px;
+
+      a{
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;          
+      }
+    }
+  }
+}
+
+nav #main-nav-bar {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+  border-bottom: 1px solid $c_border;
+  padding-bottom: 6px;
+
+  li {
+    a {
+      font-size: 16px;
+      padding: 5px;
+    }
+
+    &#link-to-cart {
+      float: right;
+      padding-left: 24px;
+      background: url("cart.png") no-repeat left center;
+
+      &:hover {
+        border-color: $c_colored;
+
+        .amount {
+          border-color: $c_colored;            
+        }
+      }
+
+      a {
+        font-weight: normal;
+        font-size: 16px;
+        color: $c_colored;
+
+        .amount {
+          font-size: 18px;
+          font-weight: bold;
+          border-left: 1px solid $c_border;
+          padding-left: 5px;
+          padding-bottom: 5px;
+        }
+      }
+    }
+  }
+}
+
+nav#taxonomies {
+  .taxonomy-root {
+    text-transform: uppercase;
+    border-bottom: 1px solid $c_border;
+    margin-bottom: 5px;
+    color: $c_colored;
+  }
+
+  .taxons-list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    list-style: disc outside;
+  }
+}
+
+#breadcrumbs {
+  border-bottom: 1px solid $c_border;
+  padding: 3px 0;
+  margin-bottom: 15px;
+
+  li {
+    a {
+      color: $c_colored;
+    }
+    span {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+}

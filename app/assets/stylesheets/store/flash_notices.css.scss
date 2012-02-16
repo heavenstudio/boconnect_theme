@@ -1,0 +1,36 @@
+@import 'colors';
+
+.flash {
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+  &.notice {
+    background-color: $c_colored;
+  }
+  &.success {
+    background-color: $c_green;
+  }
+  &.error {
+    background-color: $c_red;
+  }
+}
+
+.errorExplanation {
+  @extend .flash.error;
+  @extend .flash;
+
+  p {
+    font-weight: normal;
+  }
+
+  ul {
+    list-style: disc outside;
+    margin-left: 30px;
+
+    li {
+      font-weight: normal;
+    }
+  }
+}

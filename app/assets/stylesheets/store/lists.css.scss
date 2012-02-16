@@ -1,0 +1,32 @@
+@import 'colors';
+
+ul, ol {
+  li {
+      
+  }
+
+  &.inline {
+    li {
+      display: inline-block;
+    }
+  }
+}
+  
+dl {
+  dt, dd {
+    display: inline-block;
+    width: 50%;
+    padding: 5px;
+
+    &.odd {
+      background-color: $c_border;
+    }
+  }
+  dt {
+    font-weight: bold;
+    text-transform: uppercase;      
+  }
+  dd {
+    margin-left: -23px;
+  }
+}

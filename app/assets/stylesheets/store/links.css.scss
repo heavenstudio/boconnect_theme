@@ -1,0 +1,10 @@
+@import 'colors';
+
+a {
+  text-decoration: none;
+  color: $c_base;
+
+  &:hover {
+    color: $c_colored !important;
+  }
+}

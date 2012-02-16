@@ -1,0 +1,29 @@
+@import 'colors';
+
+table {
+  thead {
+    background-color: $c_border;
+    text-transform: uppercase;
+
+    tr {
+      th {
+        padding: 5px 10px;
+      }
+    }
+  }
+
+  tbody, tfoot {
+    tr {
+      border-bottom: 1px solid $c_border;
+
+      td {
+        vertical-align: middle;
+        padding: 5px 10px;
+      }
+
+      &.alt, &.odd {
+        background-color: $c_colored_alt;
+      }
+    }
+  }
+}
