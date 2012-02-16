@@ -1,6 +1,9 @@
 @import 'colors';
 
 table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
   thead {
     background-color: $c_border;
     text-transform: uppercase;
@@ -11,13 +14,11 @@ table {
       }
     }
   }
-
   tbody, tfoot {
     tr {
       border-bottom: 1px solid $c_border;
 
       td {
-        vertical-align: middle;
         padding: 5px 10px;
       }
 
@@ -27,3 +28,9 @@ table {
     }
   }
 }
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+

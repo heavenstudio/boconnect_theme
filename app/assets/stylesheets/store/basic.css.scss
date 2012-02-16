@@ -1,10 +1,11 @@
 @import 'colors';
 
 body {
-  color: $c_base;
-  line-height: 18px;
-  font-size: 12px;
+  line-height: 1em;
+  color: black;
+  background: #ffffff;
 }
+
 
 /* Line style */
 hr {

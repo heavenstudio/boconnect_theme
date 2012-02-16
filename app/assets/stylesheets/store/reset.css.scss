@@ -6,31 +6,30 @@
 	background-color: #fff
 	
 }
+#header{
+	position:relative;
+	background-color: #fff;
+	background-image:url(/assets/fundo_header_bb.png); ;
+	
+}
 
 li#home-link {
 	display:none;
 }
 
-
 #content hr.space {
 	display:none;
 }
 
-ul#nav-bar {
-  li {
-    a {
-    	font-family:"Trashhand",Arial, Helvetica, sans-serif;
-    	font-size: 16px;
-    	color: #8a5740;
-    	text-decoration: none;
-    }
-  
-    a:hover {
-  	  color: #ec008c;
-    }
-  }
+ul#nav-bar li a {
+	font-family:"Trashhand",Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #8a5740;
+	text-decoration: none;
 }
-
+ul#nav-bar li a:hover {
+	color: #ec008c;
+}
 .menu{
 	font-family:"Trashhand",Arial, Helvetica, sans-serif;
 	font-weight: normal;
@@ -39,34 +38,35 @@ ul#nav-bar {
 	height: 30px;
 	color: #fff;
 	background-color: #ec008c;
-  
-  form{
-  	margin-right:15px;
-  }
-
-  ul#first {
-  	list-style: none;
-  }
-
-  form {
-  	width: 320px;
-  	display:inline-block;
-  	float:right;
-	
-  }
-
-  ul li{
-  	list-style: none;
-  	display:inline-block;
-  	margin: 2px 25px;
-  }
 }
+.menu form{
+	margin-right:15px;
+}
+
+.menu ul#first {
+	list-style: none;
+}
+
+.menu form {
+	width: 320px;
+	display:inline-block;
+	float:right;
+	
+}
+
+.menu ul li{
+	list-style: none;
+	display:inline-block;
+	margin: 2px 25px;
+}
+
 
 #logo_boconnect{
 	width: 960px;
-  img{
-  	margin: 22px 50px;
-  }
+}
+
+#logo_boconnect img{
+	margin: 22px 50px;
 }
 
 
@@ -141,24 +141,26 @@ img.bobags {
 	font-size: 12px;
 	color: #000;
 	font-weight:normal;
-	ul{
-  	margin: 5px 0;
-  }
-
-  ul li {
-  	display:inline-block;
-  	list-style: none;
-  }
-
-  ul li:after {
-  	content: "|";
-  	padding: 0 1px 0 6px;
 	
-  }
+}
 
-  ul li.last:after {
-  	content: " ";
-  }
+#footer_bar ul{
+	margin: 5px 0;
+}
+
+#footer_bar ul li {
+	display:inline-block;
+	list-style: none;
+}
+
+#footer_bar ul li:after {
+	content: "|";
+	padding: 0 1px 0 6px;
+	
+}
+
+#footer_bar ul li.last:after {
+	content: " ";
 }
 
 #allrights{
@@ -192,6 +194,10 @@ img#bobags{
 	margin-left: 20px;
 }
 
+#breadcrumbs {
+	display:none;
+}
+
 .navigation{
 	margin-left: 20px;
 }
@@ -204,4 +210,5 @@ span.category{
 	font-family:"Trashhand",Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	color:#ec008c;
+	
 }
