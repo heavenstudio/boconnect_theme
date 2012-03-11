@@ -4,10 +4,10 @@ Deface::Override.new(:virtual_path => "spree/layouts/spree_application",
                      :text => "
                        <div class='menu container'>
                          <ul id='first'>
-                           <li>Bags</li>
-                           <li>BoConnect</li>
-                           <li>Como Funciona</li>
-                           <li>BoBags</li>
-                           <li>Contatos</li>
+                           <li><img src='/assets/menu_bags.png'/></li>
+                           <li><img src='/assets/menu_boconnect.png'/></li>
+                           <li><img src='/assets/menu_comofunciona.png'/></li>
+                           <li><img src='/assets/menu_bobags.png'/></li>
+                           <li><img src='/assets/menu_contatos.png'/></li>
                          </ul>
                        </div>")

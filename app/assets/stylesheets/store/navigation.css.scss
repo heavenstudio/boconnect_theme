@@ -1,8 +1,12 @@
 @import 'colors';
 
+
 nav#top-nav-bar {
+	position:absolute;
+	top: 0;
+	right:160px;
   text-align: right;
-  margin-top: 20px;
+  margin-top: 5px;
 
   ul {
     li {
@@ -18,43 +22,43 @@ nav#top-nav-bar {
   }
 }
 
+
+a.empty {
+	margin-top:30px;
+}
 nav #main-nav-bar {
+	position:absolute;
+	top:0;
+	right:10px;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 20px;
-  border-bottom: 1px solid $c_border;
+  margin-top: 8px;
   padding-bottom: 6px;
 
   li {
     a {
-      font-size: 16px;
-      padding: 5px;
+      font-size: 12px;
+      padding: 6px;
     }
 
     &#link-to-cart {
+			height:30px;
+			vertical-align:bottom;
       float: right;
       padding-left: 24px;
-      background: url("cart.png") no-repeat left center;
-
+      background: url("/assets/cart.png") no-repeat left center;
       &:hover {
-        border-color: $c_colored;
-
-        .amount {
-          border-color: $c_colored;            
-        }
       }
 
       a {
         font-weight: normal;
-        font-size: 16px;
-        color: $c_colored;
+        font-size: 12px;
+        color: #ec008c;
 
         .amount {
           font-size: 18px;
           font-weight: bold;
-          border-left: 1px solid $c_border;
           padding-left: 5px;
-          padding-bottom: 5px;
         }
       }
     }

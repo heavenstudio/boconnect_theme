@@ -31,6 +31,7 @@ ul#nav-bar li a:hover {
 	color: #ec008c;
 }
 .menu{
+	vertical-align:top;
 	font-family:"Trashhand",Arial, Helvetica, sans-serif;
 	font-weight: normal;
 	font-size: 18px;
@@ -39,26 +40,29 @@ ul#nav-bar li a:hover {
 	color: #fff;
 	background-color: #ec008c;
 }
-.menu form{
-	margin-right:15px;
-}
+
+
 
 .menu ul#first {
+	vertical-align:top;
 	list-style: none;
 }
 
 .menu form {
-	width: 320px;
+	width: 375px;
+	margin:4px 15px 0 0;
 	display:inline-block;
 	float:right;
 	
 }
 
 .menu ul li{
+	vertical-align:top;
 	list-style: none;
 	display:inline-block;
-	margin: 2px 25px;
+	margin: 0 20px;
 }
+
 
 
 #logo_boconnect{
@@ -207,7 +211,7 @@ img#bobags{
 }
 
 span.category{
-	font-family:"Trashhand",Arial, Helvetica, sans-serif;
+	font-family:Helvetica,arial, sans-serif;
 	font-size: 16px;
 	color:#ec008c;
 	
