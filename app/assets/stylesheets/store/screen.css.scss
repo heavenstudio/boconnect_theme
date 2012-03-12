@@ -146,13 +146,15 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 	right:0;
 	top:0;
 }
-
+.classificar{
+	padding: 0 10px;
+}
 .box_center{
 	display:inline-block;
 	background-color: #fbf7f4;
 	padding:15px;
 	width: 390px;
-	height: 405px;
+	height: 415px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-o-border-radius: 10px;
@@ -203,14 +205,14 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 body.one-col #content {
   display: inline;
   float: left;
-  width: 960px;
+  width: 920px;
 }
 body.two-col #content {
   display: inline;
   float: left;
   width: 704px;
 	background-color: #fbf7f4;
-	padding: 10px 0 0 15px;
+	padding: 15px 0 0 15px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-o-border-radius: 10px;
@@ -218,6 +220,96 @@ body.two-col #content {
 
 }
 
+.image_title{
+	text-align:center;
+	margin-bottom:4px;
+}
+
+.box_static{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #fbf7f4;
+	p{
+		padding-top: 5px;
+	}
+	.title{
+		text-align: left;
+		margin: 25px 0 4px 0;
+	}
+}
+
+.content_text{
+	padding:0 30px 20px 30px;
+	text-align: justify;
+}
+.privacy{
+	font-size:14px;
+	
+}
+.center{
+	text-align:center;
+}
+.img_how_to{
+	text-align:center;
+	margin-top:10px;
+}
+.box_columns{
+	width:100%;
+}
+.column_works{
+	text-align: left;
+	display:inline-block;
+	width:266px;
+	margin:10px 20px 20px 0;
+	p {
+		color:#ec008c;
+	}
+}
+.column_works_right{
+	text-align: left;
+	display:inline-block;
+	width:266px;
+	margin:10px 15px 20px 0;
+	p {
+		color:#ec008c;
+	}
+}
+.column_works_first{
+	text-align: left;
+	display:inline-block;
+	width:240px;
+	margin:10px 40px 20px 0;
+	p {
+		color:#ec008c;
+	}
+}
+.content_tips{
+	font-size:14px;
+	margin:20px 30px;
+	text-align: justify;
+	background-color: #fff;
+	height:320px;
+	overflow-y: auto;
+	ul{  
+		padding: 0 35px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-o-border-radius: 10px;
+		border-radius: 10px;
+		li{
+		list-style-image:url('/assets/list_tips.png');
+		padding:10px 0;
+		}
+	}
+}
+
+
+.tips_title{
+	padding-top:20px;
+	text-align: center;
+}
 .container .column, .container .columns {
 	margin-left: 0;
 }
