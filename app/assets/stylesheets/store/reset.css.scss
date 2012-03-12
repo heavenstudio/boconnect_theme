@@ -113,12 +113,11 @@ li#search-bar {
 	font-size: 18px;
 	color: #8a5740;
 }
-p.category{
-	padding: 2px 12px;
-}
 
 span.details {
-	font-family:"Trashhand",Arial, Helvetica, sans-serif;
+	position:absolute;
+	right: 4px;
+	bottom:0;
 	font-size: 12px;
 	color: #ec008c;
 	text-align: right;

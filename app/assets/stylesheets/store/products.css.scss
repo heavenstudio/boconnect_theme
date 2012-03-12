@@ -34,6 +34,7 @@ ul#products {
   margin-right: -10px;    
 
   li {
+		position:relative;
     text-align: center;
     font-weight: normal;
     margin-bottom: 20px;
@@ -42,7 +43,6 @@ ul#products {
       display: block;
 
       &.info {
-        height: 35px;
         margin-top: 2px;
         color: #000;
       }
@@ -61,6 +61,7 @@ ul#products {
 
     .price {
       color: #8a5740;
+			font-weight:normal;
       font-size: 16px;
       padding-top: 5px;
       display: block;

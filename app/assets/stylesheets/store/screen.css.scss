@@ -13,10 +13,7 @@
 @import 'tables';
 
 
-a {
-  text-decoration: underline;
-  color: #2e6ab1;
-}
+
 div#checkout #checkout_form_address #billing label.error {
   color: red;
   float: left;
@@ -231,7 +228,6 @@ body.two-col #content {
   clear: both;
 	height: 145px;
 }
-#header a { color: #2e6ab1; }
 #header a:hover { color: #eeeeee; }
 #footer {
   padding-top: 2em;
@@ -380,7 +376,7 @@ ul#nav-bar li.cart-indicator a.full { background-image: url(/assets/cart-full_x3
   font-weight: bold;
   border: 1px solid;
   border-color: #162f54;
-  background-color: #2e6ab1;
+  background-color: #fff;
   color: #ffffff;
 }
 .flash {
