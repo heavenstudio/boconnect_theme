@@ -5,11 +5,11 @@ Deface::Override.new(:virtual_path => "spree/layouts/spree_application",
                      :text => "
                        <div id='footer_bar'>
                          <ul'>
-                           <li>FAQ</li>
-                           <li>TERMOS & CONDIÇÕES</li>
-                           <li class='last'>CONTATO</li>
-                           <li class='last'><img id='facebook' src='/assets/facebook.png'/></li>
-                           <li class='last'><img id='twitter' src='/assets/twitter.png'/></li>
+                           <li><a href="">FAQ</a></li>
+                           <li><a href="">TERMOS & CONDIÇÕES</a></li>
+                           <li class='last'><a href="">CONTATO</a></li>
+                           <li class='last'><a href=""><img id='facebook' src='/assets/facebook.png'/></a></li>
+                           <li class='last'><a href=""><img id='twitter' src='/assets/twitter.png'/></a></li>
                          </ul>
                          <div id='allrights'>BoConnect Corporation - All rights Reserved Tel (55 - 21) 2210-7277 </div>
                          <img id='bobags' src='/assets/bobags.png'/>
