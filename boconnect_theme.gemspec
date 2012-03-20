@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'boconnect_theme'
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.summary     = 'A Spree Commerce Theme'
   s.homepage    = 'https://github.com/heavenstudio/boconnect_theme'
 
