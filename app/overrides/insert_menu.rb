@@ -10,4 +10,5 @@ Deface::Override.new(:virtual_path => "spree/layouts/spree_application",
                            <li><a href""><img src='/assets/menu_bobags.png'/></a></li>
                            <li><a href""><img src='/assets/menu_contatos.png'/></a></li>
                          </ul>
-                       </div>")
+                       </div>",
+                       :original => 'ab9303f199c71d8c4171708aebc5a6d3549764d0')
