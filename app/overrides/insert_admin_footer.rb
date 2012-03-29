@@ -13,4 +13,5 @@ Deface::Override.new(:virtual_path => "spree/layouts/admin",
                          </ul>
                          <div id='allrights'>BoConnect Corporation - All rights Reserved Tel (55 - 21) 2210-7277 </div>
                          <img id='bobags' src='/assets/bobags.png'/>
-                       </div>")
+                       </div>",
+                       :original => 'ed4ce5778b64fa08896d8568611fcc45cef7fee1')

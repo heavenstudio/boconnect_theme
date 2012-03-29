@@ -1,18 +1,15 @@
-@import 'basic';
-@import 'checkout';
-@import 'colors';
-@import 'flash_notices';
-@import 'forms';
-@import 'headers_and_footers';
-@import 'links';
-@import 'lists';
-@import 'navigation';
-@import 'paragraphs';
-@import 'products';
-@import 'reset';
-@import 'tables';
-
-
+@import "colors";
+@import "basic";
+@import "checkout";
+@import "flash_notices";
+@import "forms";
+@import "headers_and_footers";
+@import "links";
+@import "navigation";
+@import "paragraphs";
+@import "products";
+@import "reset";
+@import "tables";
 
 div#checkout #checkout_form_address #billing label.error {
   color: red;
@@ -932,4 +929,3 @@ div#checkout #checkout-summary {
   padding: 20px;
   width: 180px;
 }
-
