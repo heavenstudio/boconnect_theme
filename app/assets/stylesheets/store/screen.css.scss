@@ -304,7 +304,15 @@ body.two-col #content {
 		}
 	}
 }
-
+.box_static{
+	a{
+		color:black;
+		text-decoration:underline;
+	}
+}
+a:hover{
+	color:#ec008c;
+}
 
 .tips_title{
 	padding-top:20px;
