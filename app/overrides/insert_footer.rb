@@ -5,7 +5,7 @@ Deface::Override.new(:virtual_path => "spree/layouts/spree_application",
                      :text => "
                        <div id='footer_bar'>
                          <ul'>
-                           <li><a href=''>FAQ</a></li>
+                           <li><a href='/faq'>FAQ</a></li>
                            <li><a href='/terms'>TERMOS & CONDIÇÕES</a></li>
                            <li class='last'><a href=''>CONTATO</a></li>
                            <li class='last'><a href=''><img id='facebook' src='/assets/facebook.png'/></a></li>
