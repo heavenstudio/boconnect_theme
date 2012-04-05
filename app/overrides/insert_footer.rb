@@ -12,6 +12,8 @@ Deface::Override.new(:virtual_path => "spree/layouts/spree_application",
                            <li class='last'><a href=''><img id='twitter' src='/assets/twitter.png'/></a></li>
                          </ul>
                          <div id='allrights'>BoConnect Corporation - All rights Reserved Tel (55 - 21) 2210-7277 </div>
-                         <img id='bobags' src='/assets/bobags.png'/>
+                          <a href='http://www.bobags.com.br/site/index.html'><img id='bobags' src='/assets/bobags.png'/></a>
                        </div>",
                        :original => '3985614c5537aeec5e6aa3e0fd5aa0abe94c24fe')
+                       
+                       
