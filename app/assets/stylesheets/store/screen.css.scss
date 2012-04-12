@@ -1074,16 +1074,18 @@ div#checkout #payment-methods li.last {
   width: 190px;
 }
 div#checkout #checkout-summary {
-  background-color: #c3c9df;
+  background-color: #fbf7f4;
   float: right;
   margin-top: 10px;
-  padding: 20px;
-  width: 180px;
-}
-div#checkout #checkout-summary {
-  background-color: #c3c9df;
-  float: right;
-  margin-top: 10px;
-  padding: 20px;
-  width: 180px;
+  padding: 15px;
+  width: 170px;
+	vertical-align:top;
+	h3{
+		color:#ec008c;
+	}
+	span{
+		color:#8a5740
+	}
+	td{
+	padding: 5px;}
 }

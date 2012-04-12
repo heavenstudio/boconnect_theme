@@ -41,7 +41,6 @@
 
 #checkout-summary {
   text-align: center;
-  border: 1px solid $c_border;
   margin-top: 23px;
   margin-left: 0;
 
@@ -74,6 +73,12 @@
   }
 }
 
+
+
+#order_summary td.total span {
+	color:#8a5740 !important;
+}
+
 #billing, #shipping, #shipping_method, 
 #payment, #order_details, #order_summary {
   margin-top: 10px;
@@ -84,7 +89,7 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
-    color: $c_colored;
+    color: #ec008c;
     padding: 5px;
     margin-left: 15px;
   }
@@ -107,6 +112,7 @@
 
   td.price, td.total {
     span {
+			color:#8a5740;
       @extend span.price;
     }
   }
@@ -122,7 +128,7 @@
     &#order-total {
       text-transform: uppercase;
       font-size: 16px;
-      color: $c_base;
+      color: #8a5740	;
 
       tr { 
           
@@ -156,8 +162,7 @@
 }
 
 p[data-hook="use_billing"] {
-  float: right;
-  margin-top: -38px;
+
   background-color: white;
   padding: 5px;
 }
