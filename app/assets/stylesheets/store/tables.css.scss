@@ -3,8 +3,6 @@ table {
   border-spacing: 0;
   vertical-align: middle;
   thead {
-    background-color: $c_border;
-    text-transform: uppercase;
 
     tr {
       th {
@@ -14,10 +12,9 @@ table {
   }
   tbody, tfoot {
     tr {
-      border-bottom: 1px solid $c_border;
 
       td {
-        padding: 5px 10px;
+        padding: 5px 25px;
       }
 
       &.alt, &.odd {

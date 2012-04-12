@@ -11,6 +11,9 @@
 @import "reset";
 @import "tables";
 
+
+a:link {color: #8a5740;} 
+
 div#checkout #checkout_form_address #billing label.error {
   color: red;
   float: left;
@@ -185,12 +188,13 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 		background-color:#fff;
 		width: 134px;
 		height: 374px;
-		
-		
 	}
 		
 }
 
+#registration{
+	margin: 0 220px;
+}
 
 #banner {
 	position:absolute;
@@ -204,6 +208,7 @@ body.one-col #content {
   float: left;
   width: 920px;
 }
+
 body.two-col #content {
   display: inline;
   float: left;
@@ -766,18 +771,56 @@ div#subtotal {
   width: 49%;
   width: auto;
   text-align: left;
+	background-color: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	padding: 10px 20px;
+	margin:20px 0; 
+	font-size:18px;
+	font-weight: normal;
+	h5{
+		font-weight: normal;
+	}
+	span{
+		font-size: 18px;
+  	color: #8a5740;
+		font-weight:normal;
+	}
 }
 table { border-collapse: collapse; }
 table th {
   background: transparent;
-  border-bottom: 1px solid #dddddd;
 }
 table#cart tr td {
   border-bottom: 1px solid #dddddd;
   padding: 1em 0;
 }
+table#cart-detail {
+	background-color: #fff;
+}
 table#cart tr#none td { border-bottom: none; }
-table#cart h4 { margin-bottom: 0em; }
+table#cart h4 {
+	margin-bottom: 0em;
+	}
+a.delete {
+	color:#ff0000;
+}	
+a.delete:hover{
+	text-decoration:underline;
+}
+#line_items h4 {
+	line-height:36px;
+}	
+#line_items h4 a {
+	font-size:14px;
+	color: #8a5740;
+	text-decoration: underline;
+}
+#line_items h4 a:hover {
+	color: #ec008c;
+}
 #signup #new-customer {
 	background-color:#fbf7f4;
 	-moz-border-radius: 10px;
@@ -787,6 +830,30 @@ table#cart h4 { margin-bottom: 0em; }
   width: 450px;
   padding: 20px;
 
+}
+
+.title_cart{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	padding:10px 20px;
+}
+
+
+.box_cart{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	background-color:#fbf7f4;
+	min-height: 300px;
+}
+
+.form_order{
+	margin:10px 20px 20px;
+	width:880px;
+	background-color:#fff;
 }
 #signup #new-customer h2 { margin-bottom: 0.25em; }
 #signup #new-customer p { margin-bottom: 10px; }
@@ -857,7 +924,6 @@ table#cart h4 { margin-bottom: 0em; }
 }
 .faca_login{
 	margin:20px 0;
-	
 }
 .submit{
 	margin-top:8px;
