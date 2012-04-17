@@ -39,6 +39,15 @@
   }
 }
 
+div[data-hook="product_description"] {
+	font-size:14px;
+	margin-bottom:40px;
+}
+div[data-hook="product_right_part_wrap"] {
+	background-image: url('/assets/bc_fundo.png');
+}
+
+
 #checkout-summary {
   text-align: center;
   margin-top: 23px;
@@ -55,15 +64,16 @@
     width: 100%;
 
     tr[data-hook="item_total"] {
-      td:last-child {
+      td{
         strong {
-          @extend span.price;
+					font-weight:normal;
         }
       }
     }
 
     tr[data-hook="order_total"] {
-      border-bottom: none;
+      border-top: 1px solid #DEDEDE;
+
     };
 
     #summary-order-total {
@@ -73,7 +83,11 @@
   }
 }
 
-
+tr[data-hook="item_total"] {
+	td strong {
+	font-weight:normal;
+	}
+}
 
 #order_summary td.total span {
 	color:#8a5740 !important;
@@ -162,7 +176,6 @@
 }
 
 p[data-hook="use_billing"] {
-
   background-color: white;
   padding: 5px;
 }
