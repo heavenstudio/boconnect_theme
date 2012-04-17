@@ -1,6 +1,6 @@
 .product-section-title {
   color: #ec008c;
-  margin: 10px 0;
+  margin: 0 0 10px 0;
 	font-size:18px;
 	font-weight:normal;
 }
@@ -115,6 +115,7 @@ ul#products {
 	-o-border-radius: 10px;
 	border-radius: 10px;
 	display:inline-block;
+	padding-bottom:25px;
   #main-image {
     text-align: center;
   }
