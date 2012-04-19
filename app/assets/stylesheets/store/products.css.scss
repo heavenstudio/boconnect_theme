@@ -131,6 +131,29 @@ ul#products {
   } 
 }
 
+div[data-hook="product_properties"]{
+	padding: 0 30px;
+	strong, th{
+		color:#ec008c;	
+	}
+	tbody, tfoot {
+    tr {
+
+      td {
+        padding: 2px 5px 2px 0;
+      }
+
+      &.alt, &.odd {
+        background-color: $c_colored_alt;
+      }
+    }
+  }
+}
+
+.dimension{
+	font-weight:bold;
+	color:#ec008c;
+}
 #product-thumbnails {
   margin-top: 10px;
 
@@ -149,8 +172,10 @@ ul#products {
 }
 
 #product-properties {
-  border: 1px solid $c_border;
   padding: 10px;
+	td{
+		padding:0;
+	}
 }
 
 #product-variants {

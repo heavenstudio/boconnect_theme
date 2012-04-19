@@ -467,7 +467,7 @@ ul#nav-bar {
 }
 ul#nav-bar li {
   float: left;
-  margin-left: 1em;
+  margin-left: 0;
 }
 ul#nav-bar li.cart-indicator a {
   padding-right: 40px;
@@ -764,7 +764,7 @@ span.price selling{
 #product-description {
   display: inline;
   float: left;
-  width: 310px;
+  width: 486px;
   margin-right: 10px;
 }
 #cart-form {
@@ -782,6 +782,15 @@ span.price selling{
   margin-top: 20px;
   width: 300px;
 }
+div[data-hook="empty_cart"]{
+	padding: 20px;
+	p.empty_cart_p{
+		padding:0 10px;
+		font-size:16px;
+		color:#8A5740;
+	}
+}
+
 dl.table-display {
   margin: 0;
   padding: 0;
