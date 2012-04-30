@@ -154,13 +154,14 @@ div[data-hook="product_properties"]{
 }
 
 .dimension{
+	margin-right:12px;
 	font-weight:bold;
 	color:#ec008c;
 	display:inline-block;
 }
 
 .dimension_value{
-	color:#ec008c;
+	color:#000;
 	display:inline-block;
 }
 #product-thumbnails {
