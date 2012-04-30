@@ -26,6 +26,9 @@
 span.price {
   font-weight: bold;
   color: #8a5740;
+	position:absolute;
+	bottom:25px;
+	width:130px;
 
   &.selling {
     font-size: 20px;      
@@ -43,7 +46,7 @@ ul#products {
 		position:relative;
     text-align: center;
     font-weight: normal;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 
     a {
       display: block;
@@ -69,7 +72,7 @@ ul#products {
       color: #8a5740;
 			font-weight:normal;
       font-size: 16px;
-      padding-top: 5px;
+      padding: 5px 0;
       display: block;
     }
   }
@@ -153,6 +156,12 @@ div[data-hook="product_properties"]{
 .dimension{
 	font-weight:bold;
 	color:#ec008c;
+	display:inline-block;
+}
+
+.dimension_value{
+	color:#ec008c;
+	display:inline-block;
 }
 #product-thumbnails {
   margin-top: 10px;

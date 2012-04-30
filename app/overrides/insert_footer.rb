@@ -7,7 +7,7 @@ Deface::Override.new(:virtual_path => "spree/layouts/spree_application",
                          <ul'>
                            <li><a href='/faq'>FAQ</a></li>
                            <li><a href='/terms'>TERMOS & CONDIÇÕES</a></li>
-                           <li class='last'><a href=''>CONTATO</a></li>
+                           <li class='last'><a href='/contacts'>CONTATO</a></li>
                            <li class='last'><a href=''><img id='facebook' src='/assets/facebook.png'/></a></li>
                            <li class='last'><a href=''><img id='twitter' src='/assets/twitter.png'/></a></li>
                          </ul>
