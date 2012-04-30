@@ -983,7 +983,8 @@ a.delete:hover{
 	text-decoration:underline;
 }
 #line_items h4 {
-	line-height:36px;
+	line-height:20px;
+	margin-bottom:10px;
 }	
 #line_items h4 a {
 	font-size:14px;
@@ -1023,6 +1024,10 @@ a.delete:hover{
 }
 
 .form_order{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
 	margin:10px 20px 20px;
 	width:880px;
 	background-color:#fff;
