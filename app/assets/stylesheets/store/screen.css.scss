@@ -120,6 +120,28 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
   overflow: hidden;
   display: block;
 }
+.bag_register_title{
+	margin:10px;
+}
+
+.field_bag{
+	
+}
+.label_bag{
+	color: #EC008C;
+	font-weight: bold;
+	font-size: 14px;
+	width: 320px;
+	display: inline-block;
+	text-align: right;
+	margin-right: 10px;
+	vertical-align: top;
+	margin-top: 4px;
+}
+
+.actions .edit_bag {
+	color:#8a5740;
+} 
 
 #sidebar {
 	position:relative;
@@ -157,7 +179,9 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 	width:200px;
 	text-align: center;
 }
-
+.actions_links{
+	vertical-align:right;
+}
 .bag_price{
 	padding-bottom:2px;
 	text-align: center;
@@ -167,6 +191,14 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 }
 .box_center .box_bag .bag_details img{
 	margin:0px;
+}
+
+.img_bag{
+	width:140px;
+	height:100px
+}
+#mybags li span{
+	width:100px;
 }
 .bag_details{
 	padding:2px 0;
@@ -626,12 +658,18 @@ li#register_login{
 
 .bags_list{
 	padding:10px;
-	min-height:400px;
 }
 
-.my_bags{
+product_list .my_bags{
 	margin:10px;
 	padding:10px;
+	display:inline-block;
+	vertical-align:top;
+}
+product_list .my_bags li{
+	float:none;
+	display:inline-block;
+	vertical-align:top;
 }
 
 span.req{
