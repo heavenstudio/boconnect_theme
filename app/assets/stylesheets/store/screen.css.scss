@@ -149,6 +149,33 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 .classificar{
 	padding: 0 10px;
 }
+
+.bag_title{
+	padding:6px 0;
+	color:#000;
+	font-size:14px;
+	width:200px;
+	text-align: center;
+}
+
+.bag_price{
+	padding-bottom:2px;
+	text-align: center;
+	font-size:16px;
+	color:#8a5740;
+	width:200px;
+}
+.box_center .box_bag .bag_details img{
+	margin:0px;
+}
+.bag_details{
+	padding:2px 0;
+	text-align: right;
+	width:200px;
+	img{
+		margin:0px;
+	}
+}
 .box_center{
 	display:inline-block;
 	background-color: #fbf7f4;
@@ -163,7 +190,7 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 		clear:both;
 	}
 	.first{
-		margin:15px 0;
+		margin:5px 0 15px 0;
 	}
 	.box_bag{
 		-moz-border-radius: 10px;
@@ -171,14 +198,18 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 		-o-border-radius: 10px;
 		border-radius: 10px;
 		background-color:#fff;
-		width: 240px;
-		height: 180px;
+		width: 200px;
+		height: 155px;
+		padding:15px 20px;
+		img{
+			margin:0 30px;
+		}
 	}
 	.itens{
 		display:inline-block;
 	}
 	.list_itens{
-		margin:15px 0 0 12px;
+		margin:5px 0 0 12px;
 		vertical-align:top;
 		-moz-border-radius: 10px;
 		-webkit-border-radius: 10px;
@@ -186,10 +217,14 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 		border-radius: 10px;
 		display:inline-block;
 		background-color:#fff;
-		width: 134px;
-		height: 374px;
-	}
-		
+		width: 104px;
+		height: 348px;
+		padding:15px;
+		overflow-y:auto;
+		img{
+			padding-top:12px;
+		}	
+	}		
 }
 
 #registration{
@@ -588,6 +623,17 @@ span.detail_dimension{
 li#register_login{
 	display:block;
 }
+
+.bags_list{
+	padding:10px;
+	min-height:400px;
+}
+
+.my_bags{
+	margin:10px;
+	padding:10px;
+}
+
 span.req{
 	color:#ec008c;
 }
