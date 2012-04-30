@@ -120,6 +120,27 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
   overflow: hidden;
   display: block;
 }
+.img_bg{
+	margin-left:335px;
+}
+.img_bg_title{
+	font-size: 14px;
+	font-weight:bold;
+	width:140px;
+}
+.img_bag_description{
+	width:140px;
+}
+
+.img_bag_status{
+	width:140px;
+}
+
+.img_bag_edit a{
+	display:inline-block;
+	color:#8a5740;
+}
+
 .bag_register_title{
 	margin:10px;
 }
@@ -141,9 +162,6 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 	vertical-align: top;
 }
 
-.actions .edit_bag {
-	color:#8a5740;
-} 
 .right{
 	float:right;
 }
@@ -1295,9 +1313,6 @@ div#checkout #checkout-summary {
 	border: 1px solid #ec008c;
 }
 .product-listing-view {
-  list-style: none;
-	margin:10px;
-	padding:10px;
 	display:inline-block;
 	vertical-align:top;
 }
