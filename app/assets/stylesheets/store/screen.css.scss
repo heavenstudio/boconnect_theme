@@ -660,13 +660,13 @@ li#register_login{
 	padding:10px;
 }
 
-product_list .my_bags{
+.product_list .my_bags{
 	margin:10px;
 	padding:10px;
 	display:inline-block;
 	vertical-align:top;
 }
-product_list .my_bags li{
+.product_list .my_bags li{
 	float:none;
 	display:inline-block;
 	vertical-align:top;
@@ -676,7 +676,7 @@ span.req{
 	color:#ec008c;
 }
 
-nav#top-nav-bar ul li.bar_login{
+#top-nav-bar ul li.bar_login{
 	display:inline-block;
 }
 .payment{
