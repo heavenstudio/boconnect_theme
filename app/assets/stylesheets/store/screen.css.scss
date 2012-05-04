@@ -489,6 +489,7 @@ p img {
 }
 
  div[data-hook="product_right_part"] {
+	min-height:300px;
 	display:inline-block;
 	position:relative;
 	background-color:#fff;
