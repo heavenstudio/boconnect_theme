@@ -231,6 +231,10 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 		margin:0px;
 	}
 }
+.bag_title{
+	font-size:14px;
+}
+
 .box_center{
 	display:inline-block;
 	background-color: #fbf7f4;
@@ -272,12 +276,11 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 		border-radius: 10px;
 		display:inline-block;
 		background-color:#fff;
-		width: 104px;
-		height: 348px;
-		padding:15px;
-		overflow-y:auto;
+		width: 103px;
+		height: 385px;
+		padding:0 15px;
 		img{
-			padding-top:12px;
+			padding-top:8px;
 		}	
 	}		
 }
@@ -1357,3 +1360,22 @@ div#checkout #checkout-summary {
   color: #000;
 }
 
+/* root element for scrollable */
+.scrollable {
+/* required settings */
+	position:relative;
+	overflow:hidden;
+/*
+vertical scrollables have typically larger height than width but
+not now
+*/
+	height: 339px;
+	width: 115px;
+}
+
+/* root element for scrollable items */
+.scrollable .items {
+	position:absolute;
+/* this time we have very large space for the height */
+	height:2000em;
+}
