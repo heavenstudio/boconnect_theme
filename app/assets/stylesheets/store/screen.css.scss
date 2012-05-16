@@ -36,6 +36,11 @@ div#checkout #checkout_form_address #shipping label.error {
   padding: 0px;
   width: auto;
 }
+
+.bags_add{
+	font-weight:bold;
+	margin-left:20px;
+}
 fieldset { margin-bottom: 1em; }
 legend {
   font-size: 150%;
@@ -319,7 +324,7 @@ body.two-col #content {
   float: left;
   width: 704px;
 	background-color: #fbf7f4;
-	padding: 15px 0 0 15px;
+	padding: 15px 0 15px 15px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-o-border-radius: 10px;
@@ -1360,7 +1365,6 @@ div#checkout #checkout-summary {
   color: #000;
 }
 
-/* root element for scrollable */
 .scrollable {
 /* required settings */
 	position:relative;
@@ -1369,9 +1373,11 @@ div#checkout #checkout-summary {
 vertical scrollables have typically larger height than width but
 not now
 */
-	height: 339px;
-	width: 115px;
+	height: 79;
+	width: 370;
 }
+
+
 
 /* root element for scrollable items */
 .scrollable .items {
@@ -1379,3 +1385,4 @@ not now
 /* this time we have very large space for the height */
 	height:2000em;
 }
+
