@@ -47,7 +47,14 @@ div[data-hook="product_right_part_wrap"] {
 	background-image: url('/assets/bc_fundo.png');
 }
 div[data-hook="cart_buttons"] {
-	margin-top:20px;
+	margin-top:5px;
+	float:right;
+	width:100%;
+	text-align:right;
+}
+
+.line_item_quantity{
+	width:50px;
 }
 
 #checkout-summary {
