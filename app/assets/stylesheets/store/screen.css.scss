@@ -187,6 +187,17 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
   margin-right: 20px;
   padding: 15px;
 }
+#banner {
+	position:relative;
+	display:inline-block;
+  display: inline;
+  float: left;
+  width: 150px;
+  min-height: 100px;
+  margin-right: 20px;
+  padding: 15px;
+	bottom:0;
+}
 
 #image_home{
 	background-image:url(/assets/img_home.png);
@@ -953,7 +964,8 @@ dl.table-display dd {
 }
 
 #update-button{
-	vertical-align:top;	
+	vertical-align:top;
+	padding-right:2px;
 }
 
 dl.table-display dt { width: 100px; }
@@ -1388,18 +1400,10 @@ div#checkout #checkout-summary {
 }
 
 .scrollable {
-/* required settings */
 	position:relative;
 	overflow:hidden;
-/*
-vertical scrollables have typically larger height than width but
-not now
-*/
-	height: 79;
-	width: 370;
+	height: 338px;
 }
-
-
 
 /* root element for scrollable items */
 .scrollable .items {

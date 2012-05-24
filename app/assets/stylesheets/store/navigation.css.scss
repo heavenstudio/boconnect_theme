@@ -61,27 +61,33 @@ nav #main-nav-bar {
 
 nav#taxonomies {
   .taxonomy-root {
-    text-transform: uppercase;
-    border-bottom: 1px solid $c_border;
     margin-bottom: 5px;
-    color: $c_colored;
+	  color: #ec008c;
+	  font-size: 12px;
+	  margin-bottom: 0;
+	  font-weight: bold;
+	  line-height: 24px;
   }
 
   .taxons-list {
-    padding-left: 20px;
+    padding-left: 4px;
     margin-bottom: 20px;
-    list-style: disc outside;
+		font-size:10px;
+    list-style: none;
+		font-weight:bold;
+		color:black;
   }
 }
 
 #breadcrumbs {
-  border-bottom: 1px solid $c_border;
+  border-bottom: 1px solid #ec008c;
+	font-size:10px;
   padding: 3px 0;
   margin-bottom: 15px;
 
   li {
     a {
-      color: $c_colored;
+      color:#ec008c;
     }
     span {
       text-transform: uppercase;
