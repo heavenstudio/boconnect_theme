@@ -171,32 +171,42 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 	float:right;
 }
 
-#sidebar {
+.right_area{
 	position:relative;
 	display:inline-block;
+	float: left;
+  min-height: 100px;
+  margin-right: 20px;
+}
+.sidebar {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-o-border-radius: 10px;
 	border-radius: 10px;
 	background-image:url(/assets/fundo_bb.png); ;
 	background-color: #fbf7f4;
-  display: inline;
-  float: left;
-  width: 150px;
-  min-height: 100px;
-  margin-right: 20px;
-  padding: 15px;
+	padding: 15px;
 }
-#banner {
+
+#sidebar{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	background-image:url(/assets/fundo_bb.png); ;
+	background-color: #fbf7f4;
+	padding: 15px;
 	position:relative;
 	display:inline-block;
-  display: inline;
-  float: left;
-  width: 150px;
+	float: left;
   min-height: 100px;
   margin-right: 20px;
-  padding: 15px;
-	bottom:0;
+	width:150px;
+
+	
+}
+#banner_tips {
+  padding: 10px 5px;
 }
 
 #image_home{
@@ -965,7 +975,7 @@ dl.table-display dd {
 
 #update-button{
 	vertical-align:top;
-	padding-right:2px;
+	margin-right:2px;
 }
 
 dl.table-display dt { width: 100px; }
@@ -992,6 +1002,16 @@ div#subtotal {
 		font-weight:normal;
 	}
 }
+
+table#wishlist{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	background-color:#fff;
+	padding-bottom:10px;
+}
+
 table { border-collapse: collapse; }
 table th {
   background: transparent;
@@ -1013,7 +1033,13 @@ a.delete {
 a.delete:hover{
 	text-decoration:underline;
 }
-
+.wisht_actions a{
+	color:red;
+}
+.wisht_actions a:hover{
+	color:red;
+	text-decoration:underline;
+}
 .line_item{
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -1065,6 +1091,17 @@ a.delete:hover{
 	border-radius: 10px;
 	background-color:#fbf7f4;
 	min-height: 322px;
+}
+.box_wish{
+	float:left;
+	padding-bottom:20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	background-color:#fbf7f4;
+	min-height: 322px;
+	padding: 20px;
 }
 
 .form_order{
