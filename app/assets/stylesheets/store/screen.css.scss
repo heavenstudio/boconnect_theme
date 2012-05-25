@@ -918,6 +918,7 @@ span.price selling{
 }
 #product-images #main-image {
   min-height: 250px;
+	padding-top:10px;
   position: relative;
 }
 #product-images #main-image img {
@@ -1450,4 +1451,5 @@ div#checkout #checkout-summary {
 /* this time we have very large space for the height */
 	height:2000em;
 }
+
 
