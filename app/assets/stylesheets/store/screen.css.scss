@@ -1014,6 +1014,10 @@ div#subtotal {
 	}
 }
 
+#wishlist-form{
+	display:none;
+}
+
 table#wishlist{
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -1021,7 +1025,7 @@ table#wishlist{
 	border-radius: 10px;
 	background-color:#fff;
 	padding-bottom:10px;
-	margin-bottom:20px;
+	margin:20px 0;
 }
 
 table { border-collapse: collapse; }
