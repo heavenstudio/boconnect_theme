@@ -684,7 +684,6 @@ ul#nav-bar li.cart-indicator a.full { background-image: url(/assets/cart-full_x3
   background: #C6DDC6 url(/assets/shadow_top.png) 0px -50px repeat-x;
   color: #000;
   border: 1px solid #206C20;
-	margin-right:15px;
 }
 .flash.errors {
   background: #f4b4b4 url(/assets/shadow_top.png) 0px -50px repeat-x;
@@ -720,9 +719,18 @@ li#register_login{
 	padding:10px;
 }
 
+.action{
+	margin-left:462px;
+}
 
 span.req{
 	color:#ec008c;
+	margin-right:10px;
+	margin-top:4px;
+}
+
+span.req2{
+	margin-right:15px;
 }
 
 #top-nav-bar ul li.bar_login{
@@ -1367,6 +1375,10 @@ div#checkout #checkout-summary {
 }
 #contact{
 	padding: 0 20px;
+}
+
+#user_email{
+	width:250px;
 }
 
 #contact_box{
