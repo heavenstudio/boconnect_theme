@@ -68,7 +68,7 @@ legend {
 	font-weight:bold;
 	white-space: nowrap;
 	font-size: 10px;
-	color: #000;
+	color: #333;
 	padding: 2px 0;
 	 }
 .no-bullets { list-style: none; }
@@ -187,6 +187,7 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 	background-color: #fbf7f4;
 	padding: 15px;
 	width:150px;
+	min-height:415px;
 	
 }
 
