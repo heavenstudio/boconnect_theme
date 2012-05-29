@@ -187,16 +187,17 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 	background-color: #fbf7f4;
 	padding: 15px;
 	width:150px;
-	min-height:415px;
-	
+	min-height:415px;	
 }
 
+
 #sidebar{
+	background:url(/assets/left_top.png) no-repeat top left;
+	background:url(/assets/left_bottom.png) no-repeat bottom left;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-o-border-radius: 10px;
 	border-radius: 10px;
-	background-image:url(/assets/fundo_bb.png); ;
 	background-color: #fbf7f4;
 	padding: 15px;
 	position:relative;
@@ -683,12 +684,14 @@ ul#nav-bar li.cart-indicator a.full { background-image: url(/assets/cart-full_x3
 .flash.notice {
   background: #C6DDC6 url(/assets/shadow_top.png) 0px -50px repeat-x;
   color: #000;
-  border: 1px solid #206C20;
+	position:relative;
+	z-index:3;
 }
 .flash.errors {
   background: #f4b4b4 url(/assets/shadow_top.png) 0px -50px repeat-x;
   color: #000000;
-  border: 1px solid #000000;
+	position:relative;
+	z-index:3;
 }
 span.detail_dimension{
 	font-size:10px;
