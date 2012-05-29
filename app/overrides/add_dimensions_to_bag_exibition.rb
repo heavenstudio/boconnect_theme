@@ -5,5 +5,5 @@ Deface::Override.new virtual_path: 'spree/products/_properties',
                      text: %q{<div class='dimension'>Dimensões <span class="detail_dimension">(LxAxP)<span></div>
                               <div class= 'dimension_value'><%= @product.width %> x <%= @product.height %> x <%= @product.depth %> cm</div><br>
                               <div class='dimension'>Peso</div>
-                              <div class= 'dimension_value'><%= ("%.3f" % @product.weight).gsub(".", ",") %>
+                              <div class= 'dimension_value'><%= ("%.3f" % @product.weight).gsub(".", ",") %> Kg</div>
                            }
