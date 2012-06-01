@@ -537,7 +537,12 @@ p img {
 	margin-bottom:0;
 }
 
- div[data-hook="product_right_part"] {
+td[data-hook="cart_item_description"]{
+	min-width:250px;
+}
+
+
+div[data-hook="product_right_part"] {
 	min-height:376px;
 	display:inline-block;
 	position:relative;
