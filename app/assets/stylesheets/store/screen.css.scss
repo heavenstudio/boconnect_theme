@@ -357,9 +357,9 @@ body.one-col #content {
 body.two-col #content {
   display: inline;
   float: left;
-  width: 697px;
+  width: 692px;
 	background-color: #fbf7f4;
-	padding: 15px 7px 7px 15px;
+	padding: 15px 12px 7px 15px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-o-border-radius: 10px;
@@ -390,6 +390,7 @@ body.two-col #content {
 .content_text{
 	padding:0 30px 20px 30px;
 	text-align: justify;
+	line-height:16px;
 }
 .privacy{
 	font-size:14px;
@@ -757,9 +758,9 @@ span.req2{
   font-size: 14px;
   margin-bottom: 1em;
   padding: 0.8em;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   background: #fff; 
   color: #000000;
   border: none;
@@ -1063,10 +1064,20 @@ a.delete {
 a.delete:hover{
 	text-decoration:underline;
 }
-.wisht_actions a{
+a.wish_actions{
 	color:red;
 }
-.wisht_actions a:hover{
+
+.add-to-cart input.title{
+	display:none;
+}
+
+.add_wish{
+	margin-top:5px;
+	color:#EC008C;
+	font-weight:bold;
+}
+.wish_actions:hover{
 	color:red;
 	text-decoration:underline;
 }
@@ -1122,16 +1133,20 @@ a.delete:hover{
 	background-color:#fbf7f4;
 	min-height: 322px;
 }
+
+.title_details{
+	line-height:16px;
+	font-weight:bold;
+}
 .box_wish{
 	float:left;
-	padding-bottom:20px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-o-border-radius: 10px;
 	border-radius: 10px;
 	background-color:#fbf7f4;
 	min-height: 322px;
-	padding: 20px;
+	padding:0 20px 20px 20px;
 }
 
 .form_order{
