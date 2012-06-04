@@ -308,11 +308,11 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 		display:inline-block;
 		background-color:#fff;
 		width: 101px;
-		height: 383px;
-		padding:0 15px;
+		height: 363px;
+		padding:5px 15px 15px 15px;
 		border:1px solid #ec008c;
 		img{
-			padding-top:8px;
+			padding-top:14px;
 		}	
 	}		
 }
@@ -1493,7 +1493,7 @@ div#checkout #checkout-summary {
 .scrollable {
 	position:relative;
 	overflow:hidden;
-	height: 338px;
+	height: 310px;
 }
 
 /* root element for scrollable items */
