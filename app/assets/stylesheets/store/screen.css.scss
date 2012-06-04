@@ -572,7 +572,9 @@ div[data-hook="product_left_part"]{
   list-style: none;
   margin: 0 0 1.5em -15px;
 }
-.taxons-list li { margin: 0; }
+.taxons-list li { margin-left: 0}
+.taxons-list li .taxons-list { margin-left: 5px}
+
 .taxons-list li a {
   cursor: pointer !important;
   text-decoration: none;
