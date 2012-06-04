@@ -299,6 +299,8 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 	}
 	.itens{
 		display:inline-block;
+		position:relative;
+		
 	}
 	.list_itens{
 		margin:5px 0 0 12px;
@@ -309,6 +311,7 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 		border-radius: 10px;
 		display:inline-block;
 		background-color:#fff;
+		background-image:url(/assets/fund_bb.png);
 		width: 101px;
 		height: 363px;
 		padding:5px 15px 15px 15px;
@@ -317,6 +320,10 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 			padding-top:14px;
 		}	
 	}		
+}
+.bagbag{
+	position:absolute;
+	top:25%;
 }
 
 #registration{
