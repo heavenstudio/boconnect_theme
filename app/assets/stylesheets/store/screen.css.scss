@@ -292,8 +292,11 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 		padding:15px 20px;
 		border:1px solid #ec008c;
 		img{
-			margin:5px 50px;
+			margin:5px 55px;
 		}
+		.bag_details img{
+		  margin: 0 10px;
+    }
 	}
 	.itens{
 		display:inline-block;
