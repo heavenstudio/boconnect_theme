@@ -232,17 +232,17 @@ body.two-col #wrapper_old { background-image: url(/assets/wrapper-back-2.png); }
 	width:200px;
 	text-align: center;
 	font-weight:normal;
+	min-height:28px;
 }
 .actions_links{
 	vertical-align:right;
 }
 .bag_price{
-	padding-bottom:2px;
 	text-align: center;
 	font-size:16px;
 	color:#8a5740;
 	width:200px;
-	margin: 2px 0;
+	margin-top: 2px;
 }
 
 .img_bag{
